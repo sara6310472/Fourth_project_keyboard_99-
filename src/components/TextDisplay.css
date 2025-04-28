@@ -1,0 +1,14 @@
+.textDisplay {
+  min-height: 150px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: white;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.textDisplay:focus {
+  border-color: #4dabf7;
+}

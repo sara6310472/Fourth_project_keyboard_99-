@@ -1,0 +1,52 @@
+.key {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+  padding: 8px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.key:hover {
+  background: #f8f9fa;
+  transform: translateY(-1px);
+}
+
+.key:active {
+  transform: translateY(1px);
+}
+
+.mainChar {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subChar {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 12px;
+  color: #868e96;
+}
+
+.specialKey {
+  min-width: 70px;
+  background: #dee2e6;
+}
+
+.enterKey {
+  min-width: 90px;
+  background: #4dabf7;
+}
+
+.spaceKey {
+  min-width: 200px;
+}
+
+.langKey {
+  min-width: 80px;
+  background: #dee2e6;
+}

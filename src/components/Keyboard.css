@@ -1,0 +1,12 @@
+.keyboard {
+  background: #e9ecef;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}

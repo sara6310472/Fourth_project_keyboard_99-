@@ -1,0 +1,43 @@
+.toolbar {
+  display: flex;
+  gap: 9px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.toolBtn {
+  padding: 8px 16px;
+  background: #e9ecef;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toolBtn:hover {
+  background: #dee2e6;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fontSelect,
+.emojiPicker {
+  padding: 8px;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  outline: none;
+}
+
+.blue {
+  background-color: #4dabf7;
+}
